@@ -80,7 +80,7 @@ public class UnitSelectionManager : MonoBehaviour
       }
    }
 
-   private void DeselectAll()//Déselectionne les unités
+   public void DeselectAll()//Déselectionne les unités
    {
       foreach (var unit in unitsSelected)
       {
@@ -125,4 +125,13 @@ public class UnitSelectionManager : MonoBehaviour
    {
       unit.transform.GetChild(0).gameObject.SetActive(Visible);
    }
+	public void DragSelect(GameObject unit)
+	{
+		if(unitsSelected.Contains(unit) == false)
+			{
+				unitsSelected.Add(unit);
+			SelectionIndicatorUp(unit, true);
+				EnableUnitMovement(unit, true);
+			}
+	}
 }
