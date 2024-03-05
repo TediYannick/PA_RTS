@@ -70,3 +70,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Evan
+# I had issues with these two so I added them to the .gitignore
+/[Pp]ackages/manifest.json
+/[Pp]ackages/packages-lock.json
