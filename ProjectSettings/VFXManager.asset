@@ -10,8 +10,11 @@ VFXManager:
   m_RenderPipeSettingsPath: 
   m_FixedTimeStep: 0.016666668
   m_MaxDeltaTime: 0.05
+<<<<<<< HEAD
   m_MaxScrubTime: 30
   m_CompiledVersion: 0
   m_RuntimeVersion: 0
   m_RuntimeResources: {fileID: 0}
   m_BatchEmptyLifetime: 300
+=======
+>>>>>>> 7e82f68573d49f91cf0a43ef4bb3183a0cd53f88

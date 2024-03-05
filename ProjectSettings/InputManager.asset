@@ -293,4 +293,7 @@ InputManager:
     type: 0
     axis: 0
     joyNum: 0
+<<<<<<< HEAD
   m_UsePhysicalKeys: 1
+=======
+>>>>>>> 7e82f68573d49f91cf0a43ef4bb3183a0cd53f88
