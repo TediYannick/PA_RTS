@@ -4,7 +4,7 @@ public class CameraController : MonoBehaviour
 {
     public float scrollSpeed = 5f; // Vitesse de défilement de la molette de la souris
     public float edgeScrollSpeed = 20f;  // Vitesse de déplacement de la caméra lorsque le pointeur atteint le bord de l'écran
-    public float edgeScrollZoneSize = 200f; // Taille de la zone sensible aux bords de l'écran
+    public float edgeScrollZoneSize = 50f; // Taille de la zone sensible aux bords de l'écran
     public float pinchZoomSensitivity = 0.1f;
     public float touchMovementSensitivity = 0.5f;
 

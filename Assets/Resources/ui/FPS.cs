@@ -17,7 +17,10 @@ public class Fps : MonoBehaviour
     
     private void OnGUI()
     {
-        Rect location = new Rect(105, 105, 85, 25);
+        // xPosition = 20% de la taille de l'écran
+        float xPosition = 0.2f * Screen.width;
+
+        Rect location = new Rect(xPosition, 0, 85, 25);
         string text = $"FPS: {Mathf.Round(count)}";
         Texture black = Texture2D.linearGrayTexture;
         GUI.DrawTexture(location, black, ScaleMode.StretchToFill);
