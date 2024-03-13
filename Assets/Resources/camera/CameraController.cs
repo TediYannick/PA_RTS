@@ -11,6 +11,15 @@ public class CameraController : MonoBehaviour
     private Vector2 previousTouchPosition1;
     private Vector2 previousTouchPosition2;
 
+    public void DisableCameraController()
+    {
+        enabled = false; // Désactiver le script (utile pour l'utilisation des menus )
+    }
+
+    public void EnabledCameraController()
+    {
+        enabled = true; 
+    }
     void Update()
     {
         if (IsMobilePlatform())
