@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class BuildingMenuOpener : MonoBehaviour // Renommage de la classe
+public class BuildingMenuOpener : MonoBehaviour 
 {
-    public GameObject objectToClick; // L'objet à cliquer(hdv)
+    public GameObject hdv; // L'objet à cliquer(hdv)
     public GameObject BuildingMenu;  // Le menu à ouvrir lorsque l'objet est cliqué (buildingMenu)
 
     public CameraController CameraController;
@@ -18,7 +18,7 @@ public class BuildingMenuOpener : MonoBehaviour // Renommage de la classe
             {
                 GameObject objectHit = hit.transform.gameObject;
 
-                if (objectHit == objectToClick)
+                if (objectHit == hdv)
                 {
                     BuildingMenu.SetActive(true);
 

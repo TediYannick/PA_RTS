@@ -6,6 +6,8 @@ public class ButtonQuit : MonoBehaviour
     
     public GameObject buildingMenu;
 
+    public GameObject CaserneMenu;
+
     public CameraController CameraController;
 
   
@@ -24,6 +26,7 @@ public class ButtonQuit : MonoBehaviour
     {
         
         buildingMenu.SetActive(false);
+        CaserneMenu.SetActive(false);
         CameraController.EnabledCameraController();
     }
 }
