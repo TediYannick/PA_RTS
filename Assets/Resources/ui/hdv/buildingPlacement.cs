@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlaceCube : MonoBehaviour
+public class BuildingPlacement : MonoBehaviour
 {
     public GameObject caserne; 
     private GameObject previewCaserne; 

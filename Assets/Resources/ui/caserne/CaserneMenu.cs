@@ -5,6 +5,10 @@ public class CaserneMenuOpener : MonoBehaviour
     public GameObject Caserne; 
     public GameObject CaserneMenu;  
     public CameraController CameraController;
+    public ButtonDPS ButtonDPS;
+    public ButtonTank ButtonTank;
+    public ButtonHeal ButtonHeal;
+    
 
     void Update()
     {
@@ -19,8 +23,10 @@ public class CaserneMenuOpener : MonoBehaviour
 
                 if (objectHit == Caserne)
                 {
+                    ButtonDPS.casernePosition = Caserne.transform.position;
+                    ButtonTank.casernePosition = Caserne.transform.position;
+                    ButtonHeal.casernePosition = Caserne.transform.position;
                     CaserneMenu.SetActive(true);
-
                     CameraController.DisableCameraController();
                 
                 }
